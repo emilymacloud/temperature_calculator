@@ -1,0 +1,52 @@
+/* Universal */
+
+html, body{
+    font: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+}
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+
+.center {
+    text-align: center;
+}
+.headings {
+    background-color: burlywood;
+    padding: .5rem;
+}
+
+
+/* Heading */
+header {
+    padding: 2rem 0;
+}
+h1 {
+    font: 2rem;    
+}
+
+/* Calculator */
+.steps {
+    padding: .5rem;
+}
+.calculation {
+    text-align: center;
+    display: none;
+    
+}
+
+/* Results */
+.history {
+    padding: .5rem;
+}
+
