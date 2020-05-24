@@ -1,8 +1,6 @@
-let input = document.getElementById("input")
+let input = document.getElementById("input");
+let kInput = document.getElementById("K-input");
+let cInput = document.getElementById("C-input");
+let fInput = document.getElementById("F-input");
 
-let roundDown = function(input){
-    Math.floor(input);
-    return input
-}
-
-roundDown(input)
+let resultInput = document.getElementById("resultinput");

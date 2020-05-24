@@ -8,11 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="center">
         <h1>Temperature Calculator</h1>
         <p id="description">Calculate temperature conversions between different temperature scales</p>
     </header>
+
+    <!--Calculator Section-->
     <div class="calculator">     
         <div class="headings">
             <h2>Calculator</h2>
@@ -20,12 +23,11 @@
         <div class="steps">
             <form>
                 <label for="input">Temperature:</label>               
-                <input type="number" id="input" name="input" value="Value">
-                <label for="inputtemp">Input type:</label>
+                <input id="input" type="number" name="input" value="Value">
                 <select name="inputtemp" id="inputtemp">
-                    <option value="kelvin">Kelvin</option>
-                    <option value="celcius">Celcius</option>
-                    <option value="faren">Fahrenheit</option>
+                    <option id="K-input"value="kelvin">Kelvin</option>
+                    <option id="C-input" value="celcius">Celcius</option>
+                    <option id="F-input" value="faren">Fahrenheit</option>
                 </select>
                 <br>
                 <br>
@@ -38,7 +40,7 @@
                 </select>
                 <br>
                 <br>
-                
+
                 <input type="submit" value="Convert">
             </form>
             <div class="calculation">
@@ -54,6 +56,8 @@
 
     </div>
 
+    <!--Results Section-->
+
     <div class="results">
         <div class="headings">
             <h2>Results</h2>
@@ -66,7 +70,7 @@
                 <th>Temp</th>
                 <tr>
                     <td id="timestamp"></td>
-                    <td id="input"></td>
+                    <td id="resultinput"></td>
                     <td id="output"></td>
                     <td id="symbol"></td>
                 </tr>
